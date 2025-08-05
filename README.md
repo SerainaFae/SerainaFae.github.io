@@ -1,5 +1,7 @@
 # Seina
 
+[serainafae.github.io](https://serainafae.github.io)
+
 This project was created using [Vite](https://vite.dev/guide/) and uses
 [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite) for
 styling.
