@@ -1,147 +1,395 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/seina.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="./src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seina</title>
     <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
-    <main
-      class="py-4 px-5 font-serif text-2xl/10 md:text-4xl/14 md:p-8 md:space-y-12"
-    >
-      <div class="md:space-y-6">
-        <p>
-          Seraina Fässler, aka Seina, is a composer and sound designer working
-          at the intersection of algorithmic sound, digital instruments, and
-          field recording. Her ambient soundscapes are ethereal, precise, and
-          unpredictable.
-        </p>
-        <p>
-          Her practice centers on creative coding in SuperCollider, where she
-          builds custom tools for live performance and sound design. In 2025,
-          she completed a Bachelor's degree in Sonology at the Royal
-          Conservatoire in The Hague, with a focus on custom digital
-          instruments. Her debut EP Juni was released in August 2024 on the
-          Lucerne-based label Präsens Editionen.
-
-        </p>
-        <p>
-          Alongside her solo work, Seraina collaborates with artists, designers,
-          and institutions on soundscapes for multimedia installations,
-          websites, and artworks. Recent collaborators include Terrafranta,
-          Céline Hurka & Jules Janssen × Radio Watches × Vienna Design Week,
-          Opera Forward Festival Amsterdam, Javkhlan Ariunbold, and the Together
-          Together Collective from Den Haag.
-
-
-        </p>
-        <p>
-          She was recently selected to compose a piece for
-          the Acousmonium of GRM Paris, premiering in 2026. She is also one half
-          of the duo Swimming Pool, currently performing across Europe.
-          Furthermore, she is part of Unsync, a collective initiative supporting
-          women in electronic music.
-        </p>
+    <main class="font-serif text-2xl/8 md:text-4xl/13">
+      <div class="relative w-full h-screen flex items-center">
+        <img
+          class="absolute w-full h-full object-cover"
+          srcset="
+            ./src/images/seina-1024.jpg 1024w,
+            ./src/images/seina-1920.jpg 1920w
+          "
+          sizes="100vw"
+        />
+        <h1
+          class="text-white italic relative z-10 px-8 py-5 font-swash antialiased"
+        >
+          Seina
+        </h1>
       </div>
+      <div class="p-8">
+        <div class="space-y-4 md:space-y-6 pb-20 mb-20 border-b-20 border-red">
+          <p>
+            Seraina Fässler, aka Seina, is a composer and sound designer working
+            at the intersection of algorithmic sound, digital instruments, and
+            field recording. Her ambient soundscapes are ethereal, precise, and
+            unpredictable.
+          </p>
+          <p>
+            Her practice centers on creative coding in
+            <a class="italic text-blue">SuperCollider</a>, where she builds
+            custom tools for live performance and sound design. In 2025, she
+            completed a Bachelor’s degree in Sonology at the
+            <a class="italic text-red">Royal Conservatoire in The Hague</a>,
+            with a focus on custom digital instruments. Her debut EP Juni was
+            released in August 2024 on the Lucerne-based label Präsens
+            Editionen.
+          </p>
+          <p>
+            Alongside her solo work, Seraina collaborates with artists,
+            designers, and institutions on soundscapes for multimedia
+            installations, websites, and artworks. Recent collaborators include
+            Terrafranta, Céline Hurka & Jules Janssen × Radio Watches × Vienna
+            Design Week, Opera Forward Festival Amsterdam, Javkhlan Ariunbold,
+            and the Together Together Collective from Den Haag.
+          </p>
+          <p>
+            She was recently selected to compose a piece for
+            the Acousmonium of GRM Paris, premiering in 2026. She is also one
+            half of the duo
+            <a href="#swimmingpool" class="italic text-pink">swimming pool</a>,
+            currently performing across Europe. Furthermore, she is part of
+            Unsync, a collective initiative supporting women in electronic
+            music.
+          </p>
+        </div>
 
-      <table
-        class="w-full baseline [&_td:not(:first-child)]:pl-4 [&_td]:align-top"
-      >
-        <tbody>
-          <tr>
-            <td>26/07/25</td>
-            <td>Performance at ZiMMT</td>
-            <td>Leipzig, DE</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>25/05/25</td>
-            <td>Performance at Asimmetric Bar</td>
-            <td>Cologne, DE</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>04/09/24</td>
-            <td>Performance at Galvanik</td>
-            <td>Zug, CH</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>24/07/24</td>
-            <td>Performance at Niansa</td>
-            <td>Ljubljana, SI</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>08/03/24</td>
-            <td>Multichannel Fixed Media Installation</td>
-            <td>Amsterdam, NL</td>
-            <td>installation</td>
-          </tr>
-          <tr>
-            <td>14/02/24</td>
-            <td>Performance at 674.fm</td>
-            <td>Cologne, DE</td>
-            <td>radio/live</td>
-          </tr>
-          <tr>
-            <td>09/07/23</td>
-            <td>Quartair Summer's Gate</td>
-            <td>The Hague, NL</td>
-            <td>installation</td>
-          </tr>
-          <tr>
-            <td>03/07/23</td>
-            <td>3345 Record Store Summer Stream</td>
-            <td>The Hague, NL</td>
-            <td>live/stream</td>
-          </tr>
-          <tr>
-            <td>01/07/23</td>
-            <td>DJ Set at Maxi Radio</td>
-            <td>Leiden, NL</td>
-            <td>DJ set / radio</td>
-          </tr>
-          <tr>
-            <td>18/04/23</td>
-            <td>Satellite Multichannel Concert (ICLC 2023)</td>
-            <td>The Hague, NL</td>
-            <td>concert/research</td>
-          </tr>
-          <tr>
-            <td>16/04/23</td>
-            <td>SOTU Festival</td>
-            <td>Amsterdam, NL</td>
-            <td>festival/live</td>
-          </tr>
-          <tr>
-            <td>24/03/23</td>
-            <td>Performance at Crawlspace</td>
-            <td>The Hague, NL</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>04/11/22</td>
-            <td>Performance at Crawlspace</td>
-            <td>The Hague, NL</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>01/05/22</td>
-            <td>Performance at Walkmühle</td>
-            <td>Wiesbaden, DE</td>
-            <td>live</td>
-          </tr>
-          <tr>
-            <td>29/04/22</td>
-            <td>Performance at The Grey Space</td>
-            <td>The Hague, NL</td>
-            <td>live</td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="pb-20 mb-20 border-b-20 border-blue">
+          <div
+            class="grid space-y-6 lg:[&>div]:contents lg:grid-cols-[repeat(4,auto)] lg:gap-8"
+          >
+            <div>
+              <div>26/07/25</div>
+              <div>Performance at ZiMMT</div>
+              <div>Leipzig, DE</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>25/05/25</div>
+              <div>Performance at Asimmetric Bar</div>
+              <div>Cologne, DE</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>04/09/24</div>
+              <div>Performance at Galvanik</div>
+              <div>Zug, CH</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>24/07/24</div>
+              <div>Performance at Niansa</div>
+              <div>Ljubljana, SI</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>08/03/24</div>
+              <div>Multichannel Fixed Media Installation</div>
+              <div>Amsterdam, NL</div>
+              <div>installation</div>
+            </div>
+            <div>
+              <div>14/02/24</div>
+              <div>Performance at 674.fm</div>
+              <div>Cologne, DE</div>
+              <div>radio/live</div>
+            </div>
+            <div>
+              <div>09/07/23</div>
+              <div>Quartair Summer’s Gate</div>
+              <div>The Hague, NL</div>
+              <div>installation</div>
+            </div>
+            <div>
+              <div>03/07/23</div>
+              <div>3345 Record Store Summer Stream</div>
+              <div>The Hague, NL</div>
+              <div>live/stream</div>
+            </div>
+            <div>
+              <div>01/07/23</div>
+              <div>DJ Set at Maxi Radio</div>
+              <div>Leiden, NL</div>
+              <div>DJ set / radio</div>
+            </div>
+            <div>
+              <div>18/04/23</div>
+              <div>Satellite Multichannel Concert (ICLC 2023)</div>
+              <div>The Hague, NL</div>
+              <div>concert/research</div>
+            </div>
+            <div>
+              <div>16/04/23</div>
+              <div>SOTU Festival</div>
+              <div>Amsterdam, NL</div>
+              <div>festival/live</div>
+            </div>
+            <div>
+              <div>24/03/23</div>
+              <div>Performance at Crawlspace</div>
+              <div>The Hague, NL</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>04/11/22</div>
+              <div>Performance at Crawlspace</div>
+              <div>The Hague, NL</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>01/05/22</div>
+              <div>Performance at Walkmühle</div>
+              <div>Wiesbaden, DE</div>
+              <div>live</div>
+            </div>
+            <div>
+              <div>29/04/22</div>
+              <div>Performance at The Grey Space</div>
+              <div>The Hague, NL</div>
+              <div>live</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pb-20 mb-20 border-b-20 border-green">
+          <h2 class="mb-20 italic">Releases</h2>
+
+          <div class="w-full grid grid-cols-2 gap-12">
+            <p>Juni, 2024, Präsens Editionen</p>
+
+            <iframe
+              style="border: 0; width: 100%; height: 274px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=1645407728/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/"
+              seamless
+              ><a href="https://praesenseditionen.bandcamp.com/album/juni"
+                >Juni by Seina</a
+              ></iframe
+            >
+
+            <p>Maiwind, 2025</p>
+
+            <iframe
+              style="border: 0; width: 100%; height: 274px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3351702438/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/"
+              seamless
+              ><a href="https://seina.bandcamp.com/album/maiwind"
+                >Maiwind by Seina</a
+              ></iframe
+            >
+
+            <p>V/A I, 2025</p>
+
+            <iframe
+              style="border: 0; width: 100%; height: 208px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3167229312/size=large/bgcol=ffffff/linkcol=333333/artwork=small/track=797177197/transparent=true/"
+              seamless
+              ><a href="https://sagadomaine.bandcamp.com/album/v-a-i"
+                >V/A I by saga.domaine</a
+              ></iframe
+            >
+          </div>
+        </div>
+
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-20 mb-20 border-b-20 border-lavender [&>iframe]:aspect-square [&>iframe]:w-full"
+        >
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2107178757&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2068964368&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2064357652&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2064338092&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+        </div>
+
+        <div class="pb-20 mb-20 border-b-20 border-olive">
+          <h3 class="mb-20 italic">Projects</h3>
+
+          <div class="[&_a]:hover:italic">
+            <p>
+              <a
+                href="https://www.youtube.com/watch?v=YeBBEcqCikg"
+                class="text-red"
+                target="_blank"
+                >From Shadows</a
+              >, Audiovisual Installation, March 2024, Amsterdam – Sounddesign
+            </p>
+
+            <p>
+              <a
+                href="https://www.javkhlan-ariunbold.com/ovoo.html"
+                class="text-blue"
+                target="_blank"
+                >Ovoo</a
+              >, Video Installation, June 2024, Cologne – Sounddesign
+            </p>
+
+            <p>
+              <a
+                href="https://youtu.be/4rS13bgADwA"
+                class="text-olive"
+                target="_blank"
+                >Copper, Marble, Skin</a
+              >, Audiovisual Performance, October 2024 – Live Coding and
+              Instrument Processing
+            </p>
+
+            <p>
+              <a
+                href="https://www.instagram.com/kindheitsbotschaft?igsh=MWY5b3J1enNkZXlmZg%3D%3D"
+                class="text-lavender"
+                target="_blank"
+                >Mortal AI</a
+              >, Collaborative Live Experiment, March 2025 – Live Coding and
+              Instrument Processing
+            </p>
+
+            <p>
+              3D Audio Concert at ZiMMT, Collaborative Audiovisual Live
+              Performance, July 2025 – Live Coding
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="[&_a]:hover:not-italic md:grid md:grid-cols-2 md:gap-12 bg-pink p-10 rounded-2xl text-white antialiased mb-20"
+        >
+          <div class="flex flex-col justify-between mb-6 md:mb-0">
+            <h3 id="swimmingpool" class="mb-6">swimming pool</h3>
+            <div class="italic">
+              <p><a href="mailto:swimmingpool.duo@gmail.com">Bookings</a></p>
+              <p><a href="https://soundcloud.com/swimmingpl">Soundcloud</a></p>
+              <p>
+                <a href="https://open.spotify.com/artist/0VNCKXOMoN25fqztoBEjyH"
+                  >Spotify</a
+                >
+              </p>
+              <p><a href="https://www.instagram.com/swmmngpl">Instagram</a></p>
+            </div>
+          </div>
+
+          <p>
+            ‘swimming pool’ (NL) is a bass and electronics duo by Klyl and
+            Seina. Combining Seina’s live coding, field recordings and creative
+            sound design with Klyl’s electronic bass extended technique
+            practices, the duo moves from orchestral drones to gritty punky
+            songs. In September 2025 they will release their debut album.
+          </p>
+
+          <div
+            class="col-span-2 grid space-y-6 lg:[&>div]:contents lg:grid-cols-[repeat(3,auto)] lg:gap-8 mt-20"
+          >
+            <div>
+              <div>09/08/2025</div>
+              <div>TA-DAA! - Ein Sommerfest im Zirkus</div>
+              <div>Köln, DE</div>
+            </div>
+            <div>
+              <div>28/06/2025</div>
+              <div>ad41 Festival</div>
+              <div>Utrecht, NL</div>
+            </div>
+            <div>
+              <div>07/06/2025</div>
+              <div>Moers Festival</div>
+              <div>Moers, DE</div>
+            </div>
+            <div>
+              <div>21/05/2025</div>
+              <div>Support for Elias Rønnenfelt</div>
+              <div>Amsterdam, NL</div>
+            </div>
+            <div>
+              <div>27/03/2025</div>
+              <div>Paradise</div>
+              <div>Den Haag, NL</div>
+            </div>
+            <div>
+              <div>31/01/2025</div>
+              <div>Living Room Concert</div>
+              <div>Den Haag, NL</div>
+            </div>
+            <div>
+              <div>12/12/2024</div>
+              <div>Laak Club</div>
+              <div>Den Haag, NL</div>
+            </div>
+            <div>
+              <div>28/09/2024</div>
+              <div>Rita ́s Leefhuis</div>
+              <div>Amsterdam, NL</div>
+            </div>
+            <div>
+              <div>12/09/2024</div>
+              <div>Skaiv</div>
+              <div>Stockholm, SE</div>
+            </div>
+            <div>
+              <div>24/08/2024</div>
+              <div>Niansa</div>
+              <div>Ljubljana, SI</div>
+            </div>
+            <div>
+              <div>27/06/2024</div>
+              <div>Crawl Space</div>
+              <div>Den Haag, NL</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-2 gap-12 [&_a]:hover:not-italic mt-20 pt-20 border-t-20 border-red mb-20"
+        >
+          <p class="font-swash italic">Seina</p>
+          <div class="italic">
+            <p><a href="mailto:seinafaessler@gmail.com">Mail</a></p>
+            <p>
+              <a href="https://soundcloud.com/seraina-faessler">Soundcloud</a>
+            </p>
+            <p>
+              <a href="https://praesenseditionen.bandcamp.com/album/juni"
+                >Bandcamp</a
+              >
+            </p>
+            <p><a href="https://...">Instagram</a></p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
