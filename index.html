@@ -1,50 +1,65 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/seina.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="./src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seina</title>
     <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
-    <main
-      class="py-4 px-5 font-serif text-2xl/10 md:text-4xl/14 md:p-8 md:space-y-12"
-    >
-      <div class="md:space-y-6">
-        <p>
-          Seraina Fässler, aka Seina, is a composer and sound designer working
-          at the intersection of algorithmic sound, digital instruments, and
-          field recording. Her ambient soundscapes are ethereal, precise, and
-          unpredictable.
-        </p>
-        <p>
-          Her practice centers on creative coding in SuperCollider, where she
-          builds custom tools for live performance and sound design. In 2025,
-          she completed a Bachelor's degree in Sonology at the Royal
-          Conservatoire in The Hague, with a focus on custom digital
-          instruments. Her debut EP Juni was released in August 2024 on the
-          Lucerne-based label Präsens Editionen.
-
-        </p>
-        <p>
-          Alongside her solo work, Seraina collaborates with artists, designers,
-          and institutions on soundscapes for multimedia installations,
-          websites, and artworks. Recent collaborators include Terrafranta,
-          Céline Hurka & Jules Janssen × Radio Watches × Vienna Design Week,
-          Opera Forward Festival Amsterdam, Javkhlan Ariunbold, and the Together
-          Together Collective from Den Haag.
-
-
-        </p>
-        <p>
-          She was recently selected to compose a piece for
-          the Acousmonium of GRM Paris, premiering in 2026. She is also one half
-          of the duo Swimming Pool, currently performing across Europe.
-          Furthermore, she is part of Unsync, a collective initiative supporting
-          women in electronic music.
-        </p>
+    <main class="font-serif text-2xl/8 md:text-4xl/13">
+      <div class="relative w-full h-screen flex items-center">
+        <img
+          class="absolute w-full h-full object-cover"
+          srcset="
+            ./src/images/seina-1024.jpg 1024w,
+            ./src/images/seina-1920.jpg 1920w
+          "
+          sizes="100vw"
+        />
+        <h1
+          class="text-white italic relative z-10 px-4 md:px-8 py-5 font-swash antialiased"
+        >
+          Seina
+        </h1>
       </div>
+      <div class="p-4 md:p-8">
+        <div class="space-y-4 md:space-y-6 pb-20 mb-20 border-b-20 border-red">
+          <p>
+            Seraina Fässler, aka Seina, is a composer and sound designer working
+            at the intersection of algorithmic sound, digital instruments, and
+            field recording. Her ambient soundscapes are ethereal, precise, and
+            unpredictable.
+          </p>
+          <p>
+            Her practice centers on creative coding in
+            <a class="italic text-blue">SuperCollider</a>, where she builds
+            custom tools for live performance and sound design. In 2025, she
+            completed a Bachelor’s degree in Sonology at the
+            <a class="italic text-red">Royal Conservatoire in The Hague</a>,
+            with a focus on custom digital instruments. Her debut EP Juni was
+            released in August 2024 on the Lucerne-based label Präsens
+            Editionen.
+          </p>
+          <p>
+            Alongside her solo work, Seraina collaborates with artists,
+            designers, and institutions on soundscapes for multimedia
+            installations, websites, and artworks. Recent collaborators include
+            Terrafranta, Céline Hurka & Jules Janssen × Radio Watches × Vienna
+            Design Week, Opera Forward Festival Amsterdam, Javkhlan Ariunbold,
+            and the Together Together Collective from Den Haag.
+          </p>
+          <p>
+            She was recently selected to compose a piece for
+            the Acousmonium of GRM Paris, premiering in 2026. She is also one
+            half of the duo
+            <a href="#swimmingpool" class="italic text-pink">swimming pool</a>,
+            currently performing across Europe. Furthermore, she is part of
+            Unsync, a collective initiative supporting women in electronic
+            music.
+          </p>
+        </div>
 
       <table
         class="w-full baseline [&_td:not(:first-child)]:pl-4 [&_td]:align-top"
@@ -52,7 +67,7 @@
         <tbody>
           <tr>
             <td>26/07/25</td>
-            <td>Performance at <a href="https://youtu.be/AMHudg45Svs" target="_blank" rel="noopener">ZiMMT</a></td>
+            <td>Performance at ZiMMT</td>
             <td>Leipzig, DE</td>
             <td>live</td>
           </tr>
