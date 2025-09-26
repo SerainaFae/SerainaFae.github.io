@@ -17,15 +17,13 @@
 }
 
 :root {
-  --font-serif: "Seina", serif;
-  --font-swash: "Seina", serif;
-  --font-swash--font-feature-settings: "ss01";
-  --color-red: #ffcc80;
-  --color-blue: #dbe098;
+  --color-red: #ff4d00;
+  --color-blue: #007bff;
   --color-pink: #ff88e2;
-  --color-green: #bcc07b;
+  --color-green: #007500;
   --color-lavender: #c3c8ff;
   --color-olive: #cbc900;
+
 }
 
 
