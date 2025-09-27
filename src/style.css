@@ -17,9 +17,9 @@
 }
 
 :root {
-@theme {
+ 
   --font-serif: "Seina", serif;
-}
+
 
 body {
   --font-swash: "Seina", serif;
