@@ -17,11 +17,7 @@
 }
 
 :root {
- 
   --font-serif: "Seina", serif;
-
-
-body {
   --font-swash: "Seina", serif;
   --font-swash--font-feature-settings: "ss01";
   --color-red: #ff4d00;
@@ -31,4 +27,5 @@ body {
   --color-lavender: #c3c8ff;
   --color-olive: #cbc900;
 }
-}
+
+
