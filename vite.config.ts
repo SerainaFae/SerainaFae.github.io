@@ -1,7 +1,7 @@
 
-// vite.config.ts
 import { defineConfig } from "vite";
+import tailwindcss from "vite-plugin-tailwindcss";
 
 export default defineConfig({
-  // No need for plugins here for Tailwind CSS
+  plugins: [tailwindcss()],
 });
