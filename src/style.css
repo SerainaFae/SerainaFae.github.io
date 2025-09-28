@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: Seina;
+  font-family: "Seina";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: Seina;
+  font-family: "Seina";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -26,6 +26,11 @@
   --color-green: #007500;
   --color-lavender: #c3c8ff;
   --color-olive: #cbc900;
+}
+
+/* Example usage for body */
+body {
+  font-family: var(--font-serif);
 }
 
 
